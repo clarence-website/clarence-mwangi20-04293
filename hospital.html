@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Home page</title>
+    </head>
+    <body>
+        <form="get" action="save.php">
+            <label>patients name</label>
+            <input type="text" placeholder="patient name" name="patients name" value="patients name">
+<br>
+<table border="1" width="30%">
+    <td>
+                <label>Gender</label>
+                <input type="radio" name="gender">Male
+                <input type="radio" name="gender" >Female
+                <input type="radio" name="gender"> Others
+                <br>
+                <label>Age</label>     
+                <input type="radio" name="age">0-12 yrs
+                <input type="radio" name="age">13-19 yrs
+                <input type="radio" name="age">20-35 yrs
+                <input type="radio" name="age">>35 yrs
+    </td>
+    </table>
+    <br>
+    <table border="1">
+        <td>
+                <label>Blood Pressure</label>
+                <br>
+                <input type="number" name="blood pressure">systolic (mmHg)
+                <input type="number" name="blood pressure">Diastolic(mmHg)
+        </td>
+    </table>
+                <br>
+                <table border="1">
+                    <td>
+            <label>Body Mass Index</label>
+            <br>
+            <input type="number" name="body mass index">Weight
+            <input type="number" name="body mass index">Height(Metres)
+                    </td>
+                </table>
+          <br>
+          <table align="centre">
+              <td 
+                <h2>Status</h2>
+                <input type="submit" name="status" value="generate">
+                <input type="submit" name="status" value="cancel">
+          </td>
+          </table>
+                <br>
+                <label>Comments</label>
+                <textarea name="comments" row="30"cols="40">
+                </textarea>
+        </form>
+       </body>
+</html>
